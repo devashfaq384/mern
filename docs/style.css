@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(40, 40, 43);
+    height: 35px;
+    color: white;
+}
+.applybtn{
+    flex-grow: .1;
+    position: relative;
+    right: 100px;
+    margin-left: auto;
+    background-color: yellow;
+    cursor: pointer;
+}
+.toptext , i{
+    position: relative;
+    top: 8px;
+}
+.header i{
+    margin: 0 10px 0 80px;
+}
+.master{
+    line-height: 40px;
+    display: flex;
+    /* background-color: yellow; */
+}
+.list{
+    margin: auto;
+    position: relative;
+    left: 250px;
+    list-style-type: none;
+    display: flex;
+}
+.list li{
+    padding-right: 25px;
+    font-weight: bold; 
+}
+.search{
+    flex-grow: .12;
+    position: relative;
+    margin-left: auto;
+}
+input{
+    height: 25px;
+    border: 1px solid black;
+    border-right: none;
+}
+.search i {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 2px;
+    padding: 4px 8px 3.2px 0;
+}
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    left: 80px;
+    /* margin-left: 40px;  */
+    position: relative;
+}
+.logo i{
+    position: relative;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.image{
+    background-image: url(class.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.image-over{
+    background-color: rgba(36, 35, 35, 0.4);
+    height: 100%;
+    width: 100%!important;
+    text-align: center;
+}
+.heading{
+    line-height: 60px;
+    font-weight: bold;
+    padding: 13% 0 3% 0;
+    font-size: 40px;
+    color: white;
+}
+.readbtn{
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid yellow;
+    margin-bottom: 13%;
+    cursor: pointer;
+}
+
+.mainbox{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    top: 550px;
+    justify-content: center;
+}
+.daba{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    color: blueviolet;
+    text-align: center;
+}
+.daba span{
+    font-weight: bold;
+    position: relative;
+    top: 35%;
+
+}
+.daba i{
+       
+        position: relative;
+        left: 97px;
+        top: 55px;
+        color: orange;
+        font-size: 26px;
+}
+p{
+    position: relative;
+    top: 130px;
+    padding-left: 35px;
+    padding-right: 20px;
+}
+.button{
+    background-color: yellow;
+    position: relative;
+    top: 150px;
+    height: 35px;
+    width: 100px;
+    border: 2px solid yellow;
+    cursor: pointer;
+}
